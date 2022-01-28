@@ -1,3 +1,4 @@
 # Biography
 ### About Me
-> "I would like to learn how to write and publish a website."
+> I am a sophomore
+> > "I would like to learn how to write and publish a website."
