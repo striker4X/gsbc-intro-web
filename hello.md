@@ -1,4 +1,9 @@
-<h1>Biography</h1>
-<h3> About Me</h3>
-<p> I am a sophomore</p>
-<p> "I would like to learn how to write and publish a website."</p>
+<html>
+	<head>
+		<title>Hello!</title>
+	</head>
+	<body>
+		<h1>pretty sure I did this right</h1>
+		<p>i have hope</p>
+	</body>
+</html>
