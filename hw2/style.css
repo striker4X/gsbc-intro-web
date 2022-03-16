@@ -1,0 +1,14 @@
+#numbers {
+    float: left;
+    color: green
+}
+
+#maxi {
+    text-align: center;
+    color: blue;
+}
+
+#sumof {
+    float: right;
+    color: blueviolet;
+}
