@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>special things</title>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-image: url(https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/06/Valorant-Ascent-Map-Overview-1.jpg);
+                background-repeat: no-repeat;
+                background-size:cover;
+            }
+            #about {
+                text-align: center;
+                background-color: darkgrey;
+
+            }
+            a {
+                color: aquamarine;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+            }
+            #links {
+                visibility: hidden;
+            }
+            #under {
+                text-align: center;
+            }
+            button {
+                background-color: aquamarine;
+                color: black;
+                width: 20%;
+                text-align: center;
+                font-size: 15px;
+                padding: 20px;
+                border-radius: 15px;
+                border: 3px dashed blue;
+            }
+            button:hover {
+                font-weight: bold;
+                font-size: 15px;
+                border: 4px solid lightblue;
+            }
+            p a:hover {
+                text-decoration: underline;
+                color: aqua;
+                font-size: 18px;
+            }
+        </style>
+        <script>
+            var thing = 0
+            function changeHead(){
+                if (thing == 0){
+                    document.getElementById("links").style.visibility = "visible";
+                    thing = 1;
+                }
+                else if (thing == 1) {
+                    document.getElementById("links").style.visibility = "hidden";
+                    thing = 0
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="header">
+            <div><h1><a href="https://striker4x.github.io/gsbc-intro-web/">HOME</h1></div>
+            <div><h1><a href="https://striker4x.github.io/gsbc-intro-web/hw1/index.html">HM1</a></h1></div>
+            <div><h1><a href="https://striker4x.github.io/gsbc-intro-web/hw2/index.html">HM2</a></h1></div>
+            <div><h1><a href="https://striker4x.github.io/gsbc-intro-web/hw3/index.html">HM3</a></h1></div>
+        </div>
+        <div id="about">
+            <h3 id="aboutHeader">About my webpage</h3>
+            <p>My website is inspired by gaming stuff, i used thiese websites to help me out</p>
+            <div id="links">
+                <p><a href="https://robertsspaceindustries.com/">Roberts Space Industries</a></p>
+                <p><a href="https://playvalorant.com/en-us/">Valorant</a></p>
+            </div>
+        </div>
+        <div id="under">
+            <button onclick="changeHead()">Show Websites</button>
+        </div>
+    </body>
+</html>
